@@ -1,8 +1,11 @@
-public class ClassObject {
+class Student {
     int id;
     String name;
+}
+
+public class ClassObject {
     public static void main(String[] args){
-        ClassObject obj1 = new ClassObject();
+        Student obj1 = new Student();
         obj1.id = 68;
         obj1.name = "Ashif";
         System.out.println(obj1.id);
